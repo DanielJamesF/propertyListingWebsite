@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.img-fluid {
+    height: 5rem;
+    width: 5rem;
+    aspect-ratio: 1;
+    border: solid grey 5px;
+    border-radius: 50%;
+}
+
+#uno {
+    border-bottom: solid white 1px;
+}
+
+main .row {
+    height: 400px;
+}
