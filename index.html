@@ -28,7 +28,8 @@
                 </div>
             </div>
         </header>
-        <main style="background: url(./images/istockphoto-1291177121-170667a.jpg) no-repeat center; background-size: cover;">
+        <main
+            style="background: url(./images/istockphoto-1291177121-170667a.jpg) no-repeat center; background-size: cover;">
             <div id="mainContainer" class="container-fluid">
                 <div id="spacer1"></div>
                 <div class="row">
@@ -45,38 +46,50 @@
                         <div id="menu" class="row">
                             <div class="col"></div>
                             <div class="col-6 text-center">
-                                <button type="button" class="btn btn-primary">
+                                <!-- <button id="but1" type="button" class="btn btn-primary opacity-">
                                     All Status
                                 </button>
-                                <button type="button" class="btn btn-primary">
+                                <button id="but2" type="button" class="btn btn-primary">
                                     For Rent
                                 </button>
-                                <button type="button" class="btn btn-primary">
+                                <button id="but3" type="button" class="btn btn-primary">
                                     For Sale
-                                </button>
+                                </button> -->
                             </div>
                             <div class="col"></div>
-                            <div class="bg-light">
-                                <label for="Property type">Looking For</label><br>
-                                <input type="text" placeholder="Property Type"><br>
-                                <label for="Location">Location</label><br>
-                                <input type="text" placeholder="All Cities"><br>
-                                <label for="Property size">Property Size</label><br>
-                                <input type="text" placeholder="Bedrooms"><br>
-                                <label for="Your Budget">Your Budget</label><br>
-                                <input type="text" placeholder="Max-Budget">
+                            <div class="row bg-light">
+                                <div class="col"></div>
+                                <div class="col">
+                                    <div">
+                                        <!-- <label for="Property type">Looking For</label><br>
+                                        <input type="text" placeholder="Property Type"><br>
+                                        <label for="Location">Location</label><br>
+                                        <input type="text" placeholder="All Cities"><br>
+                                        <label for="Property size">Property Size</label><br>
+                                        <input type="text" placeholder="Bedrooms"><br>
+                                        <label for="Your Budget">Your Budget</label><br>
+                                        <input type="text" placeholder="Max-Budget"> -->
+                                        <form name="lookforme" id="imlooking">
+                                            <label for="Looking for">Looking for</label><br>
+                                            <select name="propertytype" id="propertytype"><option value="" aria-placeholder=""></option></select>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col"></div>
                             </div>
-                            <div id="search" class="d-flex justify-content-center gap-1">
-                                <input id="searchText" class="rounded text-center bg-transparent" type="text" placeholder="Search">
-                                <button id="searchButton" type="button" class="btn btn-primary rounded-pill">Click</button>
-                            </div>
+                            <!-- <div id="search" class="d-flex justify-content-center gap-1">
+                                <input id="searchText" class="rounded text-center bg-transparent" type="text"
+                                    placeholder="Search">
+                                <button id="searchButton" type="button"
+                                    class="btn btn-primary rounded-pill">Click</button>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </main>
     </section>
-    
+
 
     <main></main>
 

@@ -5,7 +5,7 @@
 }
 
 header {
-    height: 12%;
+    height: 13%;
     border-bottom: solid black 1px;
 }
 
@@ -19,6 +19,14 @@ main {
 
 #welcome {
     border: solid black 1px;
+}
+
+#but1, #but2, #but3 {
+    opacity: 80%;
+}
+
+button:hover {
+    background-color: white;
 }
 
 /* #search {
