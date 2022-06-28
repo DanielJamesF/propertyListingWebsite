@@ -21,9 +21,9 @@ main {
     border: solid black 1px;
 }
 
-#search {
+/* #search {
     margin-top: 5%;
-}
+} */
 
 #spacer1 {
     height: 30%;
@@ -34,4 +34,8 @@ main {
     height: 5rem;
     width: 5rem;
     border: solid;
+}
+
+#menu {
+    margin-top: 30%;
 }
