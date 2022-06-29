@@ -28,6 +28,9 @@
                 </div>
             </div>
         </header>
+        <section>
+
+        </section>
         <main
             style="background: url(./images/istockphoto-1291177121-170667a.jpg) no-repeat center; background-size: cover;">
             <div id="mainContainer" class="container-fluid">
@@ -36,62 +39,334 @@
                     <div class="col"></div>
                     <div class="col-7">
                         <div id="welcome" class="bg-gradient rounded-pill">
-                            <h2 class="bg-gradient display-5 text-center">Welcome to DPL</h2>
+                            <h2 class="bg-gradient display-5 text-center">
+                                Welcome to DPL
+                            </h2>
                         </div>
                     </div>
                     <div class="col"></div>
                 </div>
                 <div>
-                    <div>
-                        <div id="menu" class="row">
-                            <div class="col"></div>
-                            <div class="col-6 text-center">
-                                <!-- <button id="but1" type="button" class="btn btn-primary opacity-">
-                                    All Status
-                                </button>
-                                <button id="but2" type="button" class="btn btn-primary">
-                                    For Rent
-                                </button>
-                                <button id="but3" type="button" class="btn btn-primary">
-                                    For Sale
-                                </button> -->
-                            </div>
-                            <div class="col"></div>
-                            <div class="row bg-light">
-                                <div class="col"></div>
-                                <div class="col">
-                                    <div">
-                                        <!-- <label for="Property type">Looking For</label><br>
-                                        <input type="text" placeholder="Property Type"><br>
-                                        <label for="Location">Location</label><br>
-                                        <input type="text" placeholder="All Cities"><br>
-                                        <label for="Property size">Property Size</label><br>
-                                        <input type="text" placeholder="Bedrooms"><br>
-                                        <label for="Your Budget">Your Budget</label><br>
-                                        <input type="text" placeholder="Max-Budget"> -->
-                                        <form name="lookforme" id="imlooking">
-                                            <label for="Looking for">Looking for</label><br>
-                                            <select name="propertytype" id="propertytype"><option value="" aria-placeholder=""></option></select>
-                                        </form>
+                    <div id="menu" class="row">
+                        <div class="col"></div>
+                        <div class="col-6 text-center">
+                            <button id="but1" type="button" class="btn btn-primary opacity-">
+                                All Status
+                            </button>
+                            <button id="but2" type="button" class="btn btn-primary">
+                                For Rent
+                            </button>
+                            <button id="but3" type="button" class="btn btn-primary">
+                                For Sale
+                            </button>
+                        </div>
+                        <div class="col"></div>
+                        <div class="row bg-light">
+                            <div class="col">
+                                <form name="lookforme" id="imlooking">
+                                    <div>
+                                        <label for="Looking for">
+                                            Looking for
+                                        </label>
+                                        <br>
+                                        <select name="" id="" class="w-100">
+                                            <option value="Property type">
+                                                Commercial
+                                            </option>
+                                            <option value="Property type">
+                                                -Office
+                                            </option>
+                                            <option value="Property type">
+                                                -Shop
+                                            </option>
+                                            <option value="Property type">
+                                                Residential
+                                            </option>
+                                            <option value="Property type">
+                                                -Apartment
+                                            </option>
+                                            <option value="Property type">
+                                                -Condo
+                                            </option>
+                                            <option value="Property typee">
+                                                -Multi Family Home
+                                            </option>
+                                            <option value="Property typee">
+                                                -Single Family Home
+                                            </option>
+                                            <option value="Property typee">
+                                                -Studio
+                                            </option>
+                                            <option value="Property typee">
+                                                -Villa
+                                            </option>
+                                        </select>
                                     </div>
-                                </div>
-                                <div class="col"></div>
+                                    <div>
+                                        <label for="Location">
+                                            Location
+                                        </label>
+                                        <br>
+                                        <select name="locations" id="locations" class="w-100">
+                                            <option value="Property Location">
+                                                All Cities
+                                            </option>
+                                            <option value="Property Location">
+                                                Cape Town
+                                            </option>
+                                            <option value="Property Location">
+                                                Joannesburg
+                                            </option>
+                                            <option value="Property Location">
+                                                Durban
+                                            </option>
+                                            <option value="Property Location">
+                                                Pretoria
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="Property Size">
+                                            Property Size
+                                        </label>
+                                        <br>
+                                        <select name="sizes" id="sizes" class="w-100">
+                                            <option value="">
+                                                Bedrooms
+                                            </option>
+                                            <option value="">
+                                                1
+                                            </option>
+                                            <option value="">
+                                                2
+                                            </option>
+                                            <option value="">
+                                                3
+                                            </option>
+                                            <option value="">
+                                                4
+                                            </option>
+                                            <option value="">
+                                                5
+                                            </option>
+                                            <option value="">
+                                                6
+                                            </option>
+                                            <option value="">
+                                                7
+                                            </option>
+                                            <option value="">
+                                                8
+                                            </option>
+                                            <option value="">
+                                                9
+                                            </option>
+                                            <option value="">
+                                                10
+                                            </option>
+                                            <option value="">
+                                                Any
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="Your Budget">
+                                            Your Budget
+                                        </label>
+                                        <br>
+                                        <select name="budget" id="budget" class="w-100">
+                                            <option value="">
+                                                Max. Price
+                                            </option>
+                                            <option value="">
+                                                Any
+                                            </option>
+                                            <option value="">
+                                                $5,000
+                                            </option>
+                                            <option value="">
+                                                $10,000
+                                            </option>
+                                            <option value="">
+                                                $50,000
+                                            </option>
+                                            <option value="">
+                                                $100,000
+                                            </option>
+                                            <option value="">
+                                                $200,000
+                                            </option>
+                                            <option value="">
+                                                $300,000
+                                            </option>
+                                            <option value="">
+                                                $400,000
+                                            </option>
+                                            <option value="">
+                                                $500,000
+                                            </option>
+                                            <option value="">
+                                                $600,000
+                                            </option>
+                                            <option value="">
+                                                $700,000
+                                            </option>
+                                            <option value="">
+                                                $800,000
+                                            </option>
+                                            <option value="">
+                                                $900,000
+                                            </option>
+                                            <option value="">
+                                                $1,000,000
+                                            </option>
+                                            <option value="">
+                                                $1,500,000
+                                            </option>
+                                            <option value="">
+                                                $2,000,000
+                                            </option>
+                                            <option value="">
+                                                $2,500,000
+                                            </option>
+                                            <option value="">
+                                                $5,000,000
+                                            </option>
+                                            <option value="">
+                                                $10,000,000
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <div id="search" class="d-flex justify-content-center">
+                                        <button type="button" class="btn btn-primary w-25">Search</button>
+                                    </div>
+                                </form>
                             </div>
-                            <!-- <div id="search" class="d-flex justify-content-center gap-1">
-                                <input id="searchText" class="rounded text-center bg-transparent" type="text"
-                                    placeholder="Search">
-                                <button id="searchButton" type="button"
-                                    class="btn btn-primary rounded-pill">Click</button>
-                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="propertie" class="container-fluid">
+                    <div class="row mt-3 gap-1 d-flex justify-content-center">
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property1.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Cape Town</option>
+                                <option value="">4</option>
+                                <option value="">$3,500,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property2.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Johannesburg</option>
+                                <option value="">5</option>
+                                <option value="">$4,500,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property3.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Durban</option>
+                                <option value="">4</option>
+                                <option value="">$1,700,000</option>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2 gap-1 d-flex justify-content-center">
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property4.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Pretoria</option>
+                                <option value="">7</option>
+                                <option value="">$6,350,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property5.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Cape Town</option>
+                                <option value="">8</option>
+                                <option value="">$6,750,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property6.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Johannesburg</option>
+                                <option value="">9</option>
+                                <option value="">$8,345,000</option>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2 gap-1 d-flex justify-content-center">
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property7.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Durban</option>
+                                <option value="">5</option>
+                                <option value="">$4,500,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property8.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Pretoria</option>
+                                <option value="">10</option>
+                                <option value="">$8,653,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property9.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Cape Town</option>
+                                <option value="">3</option>
+                                <option value="">$2,755,000</option>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2 gap-1 d-flex justify-content-center">
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img class="img-fluid" style="min-height: 100px;" src="./images/property10.jpg" alt="">
+                                <option value="">Residential</option>
+                                <option value="">Johannesburg</option>
+                                <option value="">6</option>
+                                <option value="">$6,695,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img src="./images/property11.jpg" style="min-height: 100px;" alt="" class="img-fluid">
+                                <option value="">Residential</option>
+                                <option value="">Durban</option>
+                                <option value="">4</option>
+                                <option value="">$2,375,000</option>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100 bg-dark text-light">
+                                <img src="./images/property12.jpg" style="min-height: 100px;" alt="" class="img-fluid">
+                                <option value="">Residential</option>
+                                <option value="">Pretoria</option>
+                                <option value="">5</option>
+                                <option value="">$4,157,000</option>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
     </section>
-
-
-    <main></main>
 
     <footer></footer>
     <!-- JavaScript Bundle with Popper -->
