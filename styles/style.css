@@ -4,46 +4,49 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 13%;
+header{
     border-bottom: solid black 1px;
 }
 
-main {
-    height: 75%;
-}
-
-#mainContainer {
-    height: 100%;
-}
-
-#welcome {
+#logo img{
     border: solid black 1px;
-}
-
-#but1, #but2, #but3 {
-    opacity: 80%;
-}
-
-button:hover {
-    background-color: white;
-}
-
-#search {
-    margin-top: 5%;
-}
-
-#spacer1 {
-    height: 30%;
-}
-
-#logo {
+    border-radius: 50%;
     aspect-ratio: 1;
     height: 5rem;
     width: 5rem;
-    border: solid;
+    float: left;
 }
 
-#menu {
-    margin-top: 30%;
+#heading{
+    text-align: center;
 }
+
+#heading h1{
+    text-decoration: underline 1px;
+}
+
+#landing{
+    height: 100vh;
+    background-image: url(../images/istockphoto-1291177121-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#form{
+    height: 100vh;
+    border: solid black 1px;
+
+}
+
+#form-heading{
+    text-align: center;
+    text-decoration: underline black 1px;
+}
+
+#button{
+    height: 1rem;
+    width: 2rem;
+}
+
+#properties{}
