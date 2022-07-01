@@ -3,63 +3,63 @@ localStorage.setItem("property", JSON.stringify(property = [{
         image: 'property1.jpg',
         location: 'Cape Town',
         bedrooms: '1',
-        price: '1000000',
+        price: '1500000',
     },
     {
         id: 2,
         image: 'property2.jpg',
         location: 'Johannesburg',
         bedrooms: '2',
-        price: '1500000',
+        price: '2000000',
     },
     {
         id: 3,
         image: 'property3.jpg',
         location: 'Durban',
         bedrooms: '3',
-        price: '2000000',
+        price: '2500000',
     },
     {
         id: 4,
         image: 'property4.jpg',
         location: 'Pretoria',
         bedrooms: '4',
-        price: '2500000',
+        price: '3000000',
     },
     {
         id: 5,
         image: 'property5.jpg',
         location: 'Cape Town',
         bedrooms: '5',
-        price: '3000000',
+        price: '3500000',
     },
     {
         id: 6,
         image: 'property6.jpg',
         location: 'Johannesburg',
         bedrooms: '1',
-        price: '3500000',
+        price: '4000000',
     },
     {
         id: 7,
         image: 'property7.jpg',
         location: 'Durban',
         bedrooms: '2',
-        price: '4000000',
+        price: '4500000',
     },
     {
         id: 8,
         image: 'property8.jpg',
         location: 'Pretoria',
         bedrooms: '3',
-        price: '4500000',
+        price: '5000000',
     },
     {
         id: 9,
         image: 'property9.jpg',
         location: 'Cape Town',
         bedrooms: '4',
-        price: '5000000',
+        price: '5500000',
     },
     {
         id: 10,
@@ -93,29 +93,34 @@ function createHTML(prop){
     })
 };
 
-function location(value) {
-    let newProp = properties.filter(x => {
-        return x.location == value.target.value
-    })
-    createHTML(newProp);
-}
+// function location(value) {
+//     let newProp = properties.filter(x => {
+//         return x.location == value.target.value
+//     })
+//     createHTML(newProp);
+// }
 
-function bedrooms(value) {
-    let newProp = properties.filter(x => {
-        return x.bedrooms == value.target.value
-    })
-    createHTML(newProp);
-}
+// function bedrooms(value) {
+//     let newProp = properties.filter(x => {
+//         return x.bedrooms == value.target.value
+//     })
+//     createHTML(newProp);
+// }
 
-function price(value) {
-    let newProp = properties.filter(x => {
-        return x.price <= value.target.value
-    })
-    createHTML(newProp);
-}
+// function price(value) {
+//     let newProp = properties.filter(x => {
+//         return x.price <= value.target.value
+//     })
+//     createHTML(newProp);
+// }
 
-createHTML(properties);
+// createHTML(properties);
 
-// document.querySelector('#location').addEventListener('change' ,locations);
-// document.querySelector('#propertySize').addEventListener('change' ,beds);
-// document.querySelector('#propertyPrice').addEventListener('change' ,prices);
+document.querySelector('#location').addEventListener('change' ,locations);
+document.querySelector('#propertySize').addEventListener('change' ,beds);
+document.querySelector('#propertyPrice').addEventListener('change' ,prices);
+
+
+(function addData(){
+    localStorage.setItem('prop', JSON.stringify(properties));
+})();
