@@ -59,4 +59,6 @@ header{
     width: 2rem;
 }
 
-#properties{}
+footer{
+    border-top: solid black 1px;
+}
