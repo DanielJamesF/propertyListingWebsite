@@ -1,2 +1,1 @@
-
-
+let listings= JSON.parse(localStorage.getItem(''))

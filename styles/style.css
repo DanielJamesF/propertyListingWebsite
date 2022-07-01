@@ -8,7 +8,18 @@ header{
     border-bottom: solid black 1px;
 }
 
-#logo img{
+#welcome{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    border: solid black 1px;
+    justify-content: center;
+    align-self: center;
+    height: 16%;
+}
+
+#logo{
     border: solid black 1px;
     border-radius: 50%;
     aspect-ratio: 1;
@@ -26,7 +37,7 @@ header{
 }
 
 #landing{
-    height: 100vh;
+    height: 85vh;
     background-image: url(../images/istockphoto-1291177121-170667a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +45,6 @@ header{
 }
 
 #form{
-    height: 100vh;
     border: solid black 1px;
 
 }
