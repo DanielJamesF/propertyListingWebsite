@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    border: solid black 1px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height: 5rem;
+    width: 5rem;
+    float: left;
+}
+
+#box-shift{
+    display: flex;
+    flex-direction: row;
+}

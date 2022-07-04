@@ -116,11 +116,11 @@ function createHTML(prop){
 
 // createHTML(properties);
 
-document.querySelector('#location').addEventListener('change' ,locations);
-document.querySelector('#propertySize').addEventListener('change' ,beds);
-document.querySelector('#propertyPrice').addEventListener('change' ,prices);
+// document.querySelector('#location').addEventListener('change' ,locations);
+// document.querySelector('#propertySize').addEventListener('change' ,beds);
+// document.querySelector('#propertyPrice').addEventListener('change' ,prices);
 
 
-(function addData(){
-    localStorage.setItem('prop', JSON.stringify(properties));
-})();
+// (function addData(){
+//     localStorage.setItem('prop', JSON.stringify(properties));
+// })();
